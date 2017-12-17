@@ -27,3 +27,8 @@ unityでwindows mixed reality向けのアプリケーションを開発する際
         1. ビルド先をローカル コンピューターにする
     1. [デバッグ] -> [デバッグなしで開始]
 1. HMDを装着、実行を待つ
+
+## 参考文献
+- [Windows デベロッパー センター Windows Mixed Reality](https://developer.microsoft.com/ja-jp/windows/mixed-reality)
+- [Windows Mixed Reality Headsetで自作コンテンツを動かす with Unity](http://tks-yoshinaga.hatenablog.com/entry/2017/08/23/171354)
+- [Windows Mixed Reality 対応アプリ開発のための情報まとめ](https://blogs.msdn.microsoft.com/shintak/2017/09/07/winmrdev/)
