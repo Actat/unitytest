@@ -2,9 +2,26 @@
 
 unityでwindows mixed reality向けのアプリケーションを開発する際のいろいろな設定について記録するリポジトリです。
 
-このリポジトリのunitytestディレクトリをコピペすると初期設定が終了している状態を**目指しています**。
-
 ## 利用方法
+### 最初の設定
+1. unityのプロジェクトを作成
+1. MainCameraの座標を(0, 0, 0)に設定
+1. [File] -> [Build Settings...] Build Settingsのウインドウを出す
+1. Add Open Scenes で現在のシーンを追加
+1. Platform で Universal Windows Platform を選択
+1. Switch Platform ボタンをクリック
+1. Build Settings ウインドウ右側の設定
+    1. Target device: Any device
+    1. Build Type: D3D
+    1. SDK: Latest installed
+    1. Build and Run on: Local Machine
+1. 左下の Player Settings... ボタンをクリック
+1. 右側のInspectorでの設定
+    1. Other Settings を開く
+        - Script Backend を .NET にする
+    1. XR Settings を開く
+        - Virtual Reality Supported にチェックを入れる
+
 ### unityでプレビュー
 1. unityでプログラムを書いて保存
 1. HMDを接続
