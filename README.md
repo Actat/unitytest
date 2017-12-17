@@ -3,7 +3,7 @@
 unityでwindows mixed reality向けのアプリケーションを開発する際のいろいろな設定について記録するリポジトリです。
 
 ## 利用方法
-### 最初の設定
+### 初期設定
 1. unityのプロジェクトを作成
 1. MainCameraの座標を(0, 0, 0)に設定
 1. [File] -> [Build Settings...] Build Settingsのウインドウを出す
@@ -38,7 +38,7 @@ unityでwindows mixed reality向けのアプリケーションを開発する際
     1. ビルドが始まるので終わるまで待つ
 1. visual studioでの操作
     1. unitytest/app/New Unity Project.sln を開く
-    1. 画面情報のリボンで設定
+    1. 画面上方のリボンで設定
         1. ソリューション構成をReleaseにする
         1. ソリューションプラットフォームをx86にする
         1. ビルド先をローカル コンピューターにする
